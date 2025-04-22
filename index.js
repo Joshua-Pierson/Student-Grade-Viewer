@@ -10,6 +10,18 @@ const students =[
     { name: "David", grade: 68 }   
 ];
 
+
+
+// let elementText = ""
+
+// for (let index = 0; index < students.length; index++) {
+//     elementText = elementText + "<li>" + students[index]["name"] + "</li>"
+//     console.log (elementText);
+// }
+
+// document.getElementById("js-students-info").innerHTML = elementText;
+
+
 let html = "<ul>";
 
 for( let student=0; student < students.length; student++){
